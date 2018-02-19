@@ -10,7 +10,7 @@ Style must follow the following criteria:
 Comments below specify which number criteria is being addressed.
 */
 
-#animalfact {
+.animalfact {
     /*Criteria 1*/
     font-style: italic;
   }
@@ -25,13 +25,13 @@ Comments below specify which number criteria is being addressed.
     list-style-type: none;
   }
   
-  #cardface {
+  .cardface {
     /*Criteria 4*/
     border: ridge 4px #216832;
     background: url(https://res.cloudinary.com/dnab/image/upload/v1510232410/background_ul0amr.jpg);
   }
   
-  #animalinfo {
+  .animalinfo {
     /*Criteria 5*/
     border: solid 1px;
     background-color: #C9A68A;
@@ -49,7 +49,7 @@ Comments below specify which number criteria is being addressed.
     font-weight: 400;
   }
   
-  #mainborder {
+  .mainborder {
     /*Criteria 7*/
     width: 350px;
     background-color: #000;
@@ -71,19 +71,19 @@ Comments below specify which number criteria is being addressed.
     padding: 0;
   }
   
-  #wrapper {
+  .wrapper {
     margin: 0 16px;
   }
   
-  #animaldescription {
+  .animaldescription {
     font-size: 12px;
   }
   
-  #creaturetype {
+  .creaturetype {
     margin-bottom: 5px;
   }
   
-  #illustrationinfo p, #illustrationinfo a {
+  .illustrationinfo p, .illustrationinfo a {
     text-align: center;
     color: #E3DFDC;
     text-shadow: 1px 1px 1px #000;
