@@ -1,18 +1,15 @@
 /* Main elements */
 
 h2 {
-  font-family: 'Uncial Antiqua', cursive;
+  font-family: "Uncial Antiqua", cursive;
 }
 
-h2, h3 {
-  color: #E3DFDC;
+h2,
+h3 {
+  color: #e3dfdc;
   text-shadow: 2px 2px 2px #000;
   margin: 0;
   font-weight: 400;
-}
-
-span {
-  font-weight: bold;
 }
 
 ul {
@@ -49,7 +46,7 @@ img {
 
 .animalinfo {
   border: solid 1px;
-  background-color: #C9A68A;
+  background-color: #c9a68a;
   -webkit-box-shadow: -3px 3px 8px #000;
   -moz-box-shadow: -3px 3px 8px #000;
   box-shadow: -3px 3px 8px #000;
@@ -64,9 +61,18 @@ img {
   margin-bottom: 5px;
 }
 
-.illustrationinfo p, .illustrationinfo a {
+.animalfact {
+  font-style: italic;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.illustrationinfo p,
+.illustrationinfo a {
   text-align: center;
-  color: #E3DFDC;
+  color: #e3dfdc;
   text-shadow: 1px 1px 1px #000;
   margin: 10px 0;
 }
